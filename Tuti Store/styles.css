@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: afacad;
+}
+
+main {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+main img {
+    max-width: 250px;
+    margin-top: 20px;
+}
+
+.google, .redes {
+    padding-top: 20px;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.google img {
+    max-width: 200px;
+}
+
+.google input {
+    border-radius: 20px;
+    border: none;
+    margin: auto;
+    display: block;
+    height: 30px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.google button {
+    margin-top: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+
+.google-template {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+.google-template img {
+    max-width: 65%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.google-template p {
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.google-template span {
+    color: forestgreen;
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .google-template img {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 755px) {
+    .google-template p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .google-template {
+        flex-direction: column;
+    }
+    .google-template p {
+        order: 1;
+        font-size: 25px;
+        text-align: center;
+    }
+    .google-template img {
+        order: 2;
+        margin: auto;
+        max-width: 80%;
+    }
+}
+
+.redes-template {
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+
+}
+
+.redes-template div {
+    max-width: 25%;
+    margin: auto;
+}
+
+.redes-template img {
+    max-width: 80%;
+}
+
+.h1Soluções {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.soluções {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+}
+
+.soluções div {
+    max-width: 200px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2%;
+    min-height: 200px;
+}
+
+.soluções p {
+    font-size: 20px;
+}
